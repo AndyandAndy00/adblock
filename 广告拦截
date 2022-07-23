@@ -1,2 +1,0 @@
-||api.pinduoduo.com/api/alexa/homepage/hub?page_id=index.html?dy_sub_page=home^$replace=/"icon_set":\[.*?\]/"icon_set":[{}]/ 
-||api.pinduoduo.com/api/alexa/homepage/hub?page_id=index.html?dy_sub_page=home^$replace=/"title":"多多视频".*?\}\,\{//
