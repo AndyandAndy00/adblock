@@ -1,5 +1,5 @@
 #!name=app去广告、解锁权限等
-#!desc=哔哩哔哩(去广告、高画质），酷安（去广告）
+#!desc=哔哩哔哩、酷安
 
 [Rule]
 # <哔哩哔哩>
@@ -12,8 +12,6 @@ URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.comic\/flash,REJE
 
 [URL Rewrite]
 # <哔哩哔哩>
-# 去除动态中的话题
-^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr - reject
 # 去除动态中的最常访问
 ^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist - reject
 # 可能的一些推广(beta)
