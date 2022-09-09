@@ -2,7 +2,7 @@
 #!desc=cookie
 
 [MITM]
-hostname=paopaoyun.top
+hostname = paopaoyun.top
 
 [Script]
 获取Cookie = type=http-request, pattern=https://www.paopaoyun.top/auth/login#, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
