@@ -2,7 +2,7 @@
 #!desc=boxjs自动签到
 
 [MITM]
-hostname=paopaoyun.top
+hostname = paopaoyun.top
 
 [Script]
 机场签到Cookie版 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
